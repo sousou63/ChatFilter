@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: ChatFilter
+## Notes: Filter chat messages based on words
+## Author: Sousou
+## Version: 1.0
+
+ChatFilter.lua
