@@ -13,12 +13,14 @@ But you can configure it for any kind of unwanted messages (gold sellers, ads, e
 
 ## ⚙️ How to Use
 
-1. Install the addon by placing the `ChatFilter` folder into:  
+1. Install the addon by placing the `ChatFilter-main` folder into:  
 Interface/AddOns/
+
+2. Rename it `ChatFilter`
 
 3. Open `ChatFilter.lua`.
    
-4. Add or remove keywords inside the `blockedWords` list. Example:
+4. Add or remove keywords inside the `blockedWords` list if needed. Example : 
 
 ```lua
 local blockedWords = {
