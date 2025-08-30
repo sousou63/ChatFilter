@@ -12,7 +12,7 @@ local blockedWords = {
 local function ChatFilter(self, event, message, author, ...)
     for _, word in ipairs(blockedWords) do
         if string.find(string.lower(message), string.lower(word)) then
-            return true -- bloque le message
+            return true -- Block the message
         end
     end
     return false, message, author, ...
